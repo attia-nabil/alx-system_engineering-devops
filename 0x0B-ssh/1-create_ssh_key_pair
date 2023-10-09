@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# Create a new ssh key (type=rsa, bits=4096, name=school, passphrase=betty)
-ssh-keygen -t rsa -b 4096 -f school -N betty
+# Connects to server 34.138.32.248 with key in ~/.ssh/school
+
+ssh -i ~/.ssh/school ubuntu@54.90.22.172
